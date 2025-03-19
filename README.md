@@ -16,16 +16,23 @@ A simple Python utility for converting PNG images to ICO format.
 
 ## Installation
 
+The project uses Poetry for dependency management:
+
+
+### Install Poetry if you don't have it
+#### https://python-poetry.org/docs/#installation
+
+### Install dependencies
 ```bash
-pip install pillow
+  poetry install
 ```
 
 ## Usage
 
 #### Run the script using Python:
-   ```bash
-   python image_converter.py
-   ```
+```bash
+  poetry run python imageconverter/t3EaO.py
+```
 
 #### The program will:
 
